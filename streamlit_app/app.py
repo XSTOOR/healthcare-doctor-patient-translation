@@ -87,7 +87,9 @@ from utils.session import init_session_state
 init_session_state()
 
 # Import pages
-from pages import login_page, dashboard_page, conversation_page
+from pages.login_page import login_page
+from pages.dashboard_page import dashboard_page
+from pages.conversation_page import conversation_page
 
 
 def main():
